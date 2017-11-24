@@ -14215,7 +14215,7 @@ Digikey code: WM18888-ND</description>
 <instance part="P+3" gate="1" x="142.24" y="88.9"/>
 <instance part="SUPPLY8" gate="GND" x="142.24" y="68.58"/>
 <instance part="SUPPLY9" gate="GND" x="101.6" y="68.58"/>
-<instance part="RF1" gate="G$1" x="129.54" y="71.12" rot="R270"/>
+<instance part="RF1" gate="G$1" x="147.32" y="60.96"/>
 <instance part="J1" gate="G$1" x="121.92" y="55.88"/>
 <instance part="J2" gate="G$1" x="81.28" y="20.32"/>
 <instance part="SUPPLY14" gate="GND" x="96.52" y="25.4" rot="R180"/>
@@ -15352,27 +15352,15 @@ Digikey code: WM18888-ND</description>
 <pinref part="U$2" gate="6" pin="S"/>
 </segment>
 </net>
-<net name="N$76" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="-IN"/>
-<pinref part="RF1" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VOUT1" class="0">
 <segment>
-<pinref part="RF1" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="66.04" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="152.4" y1="60.96" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="58.42" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
 <label x="154.94" y="78.74" size="1.778" layer="95" xref="yes"/>
-<junction x="129.54" y="60.96"/>
 <junction x="152.4" y="78.74"/>
+<pinref part="RF1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="7" pin="S"/>
@@ -15453,6 +15441,17 @@ Digikey code: WM18888-ND</description>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <pinref part="RF12" gate="G$1" pin="1"/>
 <wire x1="0" y1="15.24" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="58.42" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="RF1" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="-IN"/>
+<wire x1="129.54" y1="60.96" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

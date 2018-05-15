@@ -14357,6 +14357,7 @@ Digikey code: WM18888-ND</description>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 <wire x1="134.62" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="81.28" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
+<junction x="134.62" y="81.28"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="B" pin="+IN"/>
@@ -15416,6 +15417,7 @@ Digikey code: WM18888-ND</description>
 <wire x1="162.56" y1="60.96" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="60.96" x2="160.02" y2="60.96" width="0.1524" layer="91"/>
 <label x="160.02" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="162.56" y="60.96"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -15452,6 +15454,8 @@ Digikey code: WM18888-ND</description>
 <pinref part="IC1" gate="A" pin="-IN"/>
 <wire x1="129.54" y1="60.96" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
+<junction x="129.54" y="60.96"/>
+<junction x="134.62" y="76.2"/>
 </segment>
 </net>
 </nets>

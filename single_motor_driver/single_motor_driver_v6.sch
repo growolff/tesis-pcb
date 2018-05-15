@@ -13179,6 +13179,7 @@ Digikey code: WM18888-ND</description>
 <part name="ZERO" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" value="0"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND1" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13266,6 +13267,7 @@ Digikey code: WM18888-ND</description>
 <instance part="ZERO" gate="G$1" x="2.54" y="50.8" rot="R180"/>
 <instance part="SUPPLY8" gate="G$1" x="-7.62" y="48.26"/>
 <instance part="SUPPLY9" gate="GND" x="12.7" y="48.26"/>
+<instance part="SUPPLY12" gate="G$1" x="-38.1" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -13752,35 +13754,6 @@ Digikey code: WM18888-ND</description>
 <wire x1="-15.24" y1="132.08" x2="-15.24" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LSS" class="0">
-<segment>
-<pinref part="C" gate="G$1" pin="S1"/>
-<wire x1="-38.1" y1="116.84" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="109.22" x2="-38.1" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="101.6" x2="-38.1" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="81.28" x2="-38.1" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="73.66" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="45.72" x2="-38.1" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="116.84" x2="-38.1" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="B" gate="G$1" pin="S1"/>
-<wire x1="-50.8" y1="81.28" x2="-38.1" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="45.72" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-38.1" y="81.28"/>
-<junction x="-38.1" y="45.72"/>
-<pinref part="RL1" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="38.1" x2="-38.1" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="RL3" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="73.66" x2="-38.1" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="RL5" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="109.22" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
-<junction x="-38.1" y="73.66"/>
-<junction x="-38.1" y="109.22"/>
-<pinref part="A" gate="G$1" pin="S1"/>
-<pinref part="U$2" gate="G$1" pin="LSS"/>
-<wire x1="-10.16" y1="101.6" x2="-38.1" y2="101.6" width="0.1524" layer="91"/>
-<junction x="-38.1" y="101.6"/>
-</segment>
-</net>
 <net name="PGND" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="-"/>
@@ -13811,6 +13784,35 @@ Digikey code: WM18888-ND</description>
 <pinref part="ZERO" gate="G$1" pin="2"/>
 <pinref part="SUPPLY8" gate="G$1" pin="GND1"/>
 <wire x1="-7.62" y1="50.8" x2="-2.54" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C" gate="G$1" pin="S1"/>
+<wire x1="-38.1" y1="116.84" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="109.22" x2="-38.1" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="101.6" x2="-38.1" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="81.28" x2="-38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="73.66" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="45.72" x2="-38.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="116.84" x2="-38.1" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="B" gate="G$1" pin="S1"/>
+<wire x1="-50.8" y1="81.28" x2="-38.1" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="45.72" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-38.1" y="81.28"/>
+<junction x="-38.1" y="45.72"/>
+<pinref part="RL1" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="38.1" x2="-38.1" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="RL3" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="73.66" x2="-38.1" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="RL5" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="109.22" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
+<junction x="-38.1" y="73.66"/>
+<junction x="-38.1" y="109.22"/>
+<pinref part="A" gate="G$1" pin="S1"/>
+<pinref part="U$2" gate="G$1" pin="LSS"/>
+<wire x1="-10.16" y1="101.6" x2="-38.1" y2="101.6" width="0.1524" layer="91"/>
+<junction x="-38.1" y="101.6"/>
+<pinref part="SUPPLY12" gate="G$1" pin="GND1"/>
+<junction x="-38.1" y="38.1"/>
 </segment>
 </net>
 </nets>

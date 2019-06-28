@@ -19032,68 +19032,67 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jst-ph">
+<library name="robot-hand">
 <packages>
-<package name="JST-PH4">
-<wire x1="-4.95" y1="-1.7" x2="-1.95" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="-1.7" x2="1.95" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="1.95" y1="-1.7" x2="4.95" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-4.95" y1="2.8" x2="4.95" y2="2.8" width="0.127" layer="21"/>
-<wire x1="4.95" y1="2.8" x2="4.95" y2="0.6" width="0.127" layer="21"/>
-<wire x1="4.95" y1="0.6" x2="4.95" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="4.95" y1="-0.3" x2="4.95" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-4.95" y1="2.8" x2="-4.95" y2="0.6" width="0.127" layer="21"/>
-<wire x1="-4.95" y1="0.6" x2="-4.95" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-4.95" y1="-0.3" x2="-4.95" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-4.35" y1="2.2" x2="4.35" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-4.35" y1="2.2" x2="-4.35" y2="0.6" width="0.127" layer="21"/>
-<wire x1="-4.35" y1="0.6" x2="-4.35" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-4.35" y1="-0.3" x2="-4.35" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-4.35" y1="-1.1" x2="-1.95" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="4.35" y1="2.2" x2="4.35" y2="0.6" width="0.127" layer="21"/>
-<wire x1="4.35" y1="0.6" x2="4.35" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="4.35" y1="-0.3" x2="4.35" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-4.95" y1="-0.3" x2="-4.35" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-4.95" y1="0.6" x2="-4.35" y2="0.6" width="0.127" layer="21"/>
-<wire x1="4.35" y1="0.6" x2="4.95" y2="0.6" width="0.127" layer="21"/>
-<wire x1="4.35" y1="-0.3" x2="4.95" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="-1.1" x2="-1.95" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="1.95" y1="-1.1" x2="1.95" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="1.95" y1="-1.1" x2="4.35" y2="-1.1" width="0.127" layer="21"/>
-<pad name="4" x="-3" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="3" x="-1" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="2" x="1" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="1" x="3" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<text x="-5" y="3.5001" size="1.27" layer="25">&gt;NAME</text>
-<text x="2.9001" y="-3.4999" size="1.27" layer="21">1</text>
+<package name="DYNAMIXEL_SPOX_04">
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.9304"/>
+<pad name="2" x="2.5" y="0" drill="0.8" diameter="1.9304"/>
+<pad name="3" x="5" y="0" drill="0.8" diameter="1.9304"/>
+<pad name="4" x="7.5" y="0" drill="0.8" diameter="1.9304"/>
+<wire x1="-1.875" y1="0.965" x2="-1.05" y2="1.79" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="1.79" x2="8.37" y2="1.79" width="0.127" layer="21"/>
+<wire x1="8.37" y1="1.79" x2="9.375" y2="0.785" width="0.127" layer="21"/>
+<wire x1="9.375" y1="0.785" x2="9.375" y2="-3.09" width="0.127" layer="21"/>
+<wire x1="9.375" y1="-3.09" x2="-1.875" y2="-3.09" width="0.127" layer="21"/>
+<wire x1="-1.875" y1="-3.09" x2="-1.875" y2="0.965" width="0.127" layer="21"/>
+<wire x1="8.37" y1="1.79" x2="9.375" y2="1.79" width="0.127" layer="21"/>
+<wire x1="9.375" y1="1.79" x2="9.375" y2="0.785" width="0.127" layer="21"/>
+<text x="0" y="-1.5625" size="1.27" layer="21" font="vector" ratio="15" rot="R270" align="center-left">GND</text>
+<text x="2.5" y="-1.5625" size="1.27" layer="21" font="vector" ratio="15" rot="R270" align="center-left">VDD</text>
+<text x="5" y="-1.5625" size="1.27" layer="21" font="vector" ratio="15" rot="R270" align="center-left">D+</text>
+<text x="7.5" y="-1.5625" size="1.27" layer="21" font="vector" ratio="15" rot="R270" align="center-left">D-</text>
 </package>
 </packages>
 <symbols>
-<symbol name="CON04">
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
-<text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-9.906" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="4" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<symbol name="DYNAMIXEL_SPOX">
+<description>&lt;b&gt;Dynamixel RS-485 Connector&lt;/b&gt;
+&lt;br&gt;
+Molex LLC SPOX 4 Male connector
+&lt;br&gt;
+Digikey code: WM18888-ND</description>
+<wire x1="2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="2.54" y2="7.62" width="0.4064" layer="94"/>
+<text x="-5.08" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<pin name="VDD" x="7.62" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="7.62" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="D+" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="D-" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JST-PH4" prefix="P" uservalue="yes">
+<deviceset name="DYNAMIXEL_RS485">
+<description>&lt;b&gt;Dynamixel RS-485 Connector&lt;/b&gt;
+&lt;br&gt;
+Molex LLC SPOX 4 Male connector
+&lt;br&gt;
+Digikey code: WM18888-ND</description>
 <gates>
-<gate name="A" symbol="CON04" x="0" y="0"/>
+<gate name="J$1" symbol="DYNAMIXEL_SPOX" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="JST-PH4">
+<device name="" package="DYNAMIXEL_SPOX_04">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
+<connect gate="J$1" pin="D+" pad="3"/>
+<connect gate="J$1" pin="D-" pad="4"/>
+<connect gate="J$1" pin="GND" pad="1"/>
+<connect gate="J$1" pin="VDD" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19131,7 +19130,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P1" library="jst-ph" deviceset="JST-PH4" device=""/>
 <part name="RF5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
@@ -19139,6 +19137,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R0" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
 <part name="JP1" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X3" device=""/>
+<part name="U$1" library="robot-hand" deviceset="DYNAMIXEL_RS485" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19209,10 +19208,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P+4" gate="1" x="35.56" y="91.44" smashed="yes">
 <attribute name="VALUE" x="33.02" y="86.36" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P1" gate="A" x="15.24" y="30.48" smashed="yes">
-<attribute name="NAME" x="12.7" y="36.322" size="1.778" layer="95"/>
-<attribute name="VALUE" x="12.7" y="20.574" size="1.778" layer="96"/>
-</instance>
 <instance part="RF5" gate="G$1" x="33.02" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="31.5214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="36.322" size="1.778" layer="96" rot="R180"/>
@@ -19238,6 +19233,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="JP2" gate="A" x="109.22" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.57" y="29.845" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="115.57" y="43.18" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="U$1" gate="J$1" x="63.5" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.58" y="29.718" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -19267,11 +19265,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="33.02" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="P1" gate="A" pin="4"/>
-<wire x1="55.88" y1="25.4" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
-<junction x="55.88" y="25.4"/>
+<wire x1="55.88" y1="33.02" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="J$1" pin="GND"/>
+<junction x="55.88" y="33.02"/>
 </segment>
 <segment>
 <pinref part="CR" gate="G$1" pin="+"/>
@@ -19300,13 +19296,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="P1" gate="A" pin="1"/>
 <pinref part="RF5" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="25.4" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="40.64" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
-<junction x="25.4" y="33.02"/>
+<wire x1="25.4" y1="40.64" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="J$1" pin="VDD"/>
+<wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<junction x="25.4" y="35.56"/>
 </segment>
 </net>
 <net name="VOUT1" class="0">
@@ -19320,9 +19317,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="RF1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="P1" gate="A" pin="2"/>
-<wire x1="22.86" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
-<label x="27.94" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="J$1" pin="D-"/>
+<wire x1="55.88" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
+<label x="53.34" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$82" class="0">
@@ -19348,9 +19345,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="152.4" y="40.64"/>
 </segment>
 <segment>
-<pinref part="P1" gate="A" pin="3"/>
-<wire x1="22.86" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<label x="27.94" y="27.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="J$1" pin="D+"/>
+<wire x1="55.88" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
+<label x="53.34" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="-5V" class="0">

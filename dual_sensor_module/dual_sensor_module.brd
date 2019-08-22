@@ -2542,7 +2542,7 @@ grid 2.54 mm, diameter 5 mm</description>
 <clearance class="0" value="0.205"/>
 </class>
 </classes>
-<designrules name="Fablab U. de Chile *">
+<designrules name="Fablab U. de Chile">
 <description language="de">
 
 &lt;b &gt;Fablab U. de Chile Design Rules &lt;/b&gt;
@@ -2595,11 +2595,11 @@ Sin embargo, si el diseño de la PCB no cumple con el DRC por alguna particulari
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="15mil"/>
+<param name="rlMinPadTop" value="10mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="15mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
 <param name="rlMinViaOuter" value="10mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
@@ -2846,7 +2846,13 @@ Sin embargo, si el diseño de la PCB no cumple con el DRC por alguna particulari
 <wire x1="12.217" y1="20.32" x2="12.217" y2="16.662" width="0.6096" layer="1"/>
 <wire x1="12.217" y1="16.662" x2="12.065" y2="16.51" width="0.6096" layer="1"/>
 <wire x1="12.065" y1="16.51" x2="10.795" y2="15.24" width="0.6096" layer="1"/>
-<wire x1="12.217" y1="20.32" x2="9.373" y2="20.32" width="0" layer="19" extent="1-1"/>
+<polygon width="0.6096" layer="1" isolate="0.4064">
+<vertex x="-0.635" y="39.37"/>
+<vertex x="27.94" y="39.37"/>
+<vertex x="27.94" y="-0.635"/>
+<vertex x="-0.635" y="-0.635"/>
+</polygon>
+<wire x1="9.373" y1="20.32" x2="12.217" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="IC1" pad="8"/>

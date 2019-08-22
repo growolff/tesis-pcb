@@ -19376,7 +19376,7 @@ Digikey code: WM18888-ND</description>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="111.76" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
-<label x="119.38" y="71.12" size="1.778" layer="95" xref="yes"/>
+<label x="116.84" y="71.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="1"/>

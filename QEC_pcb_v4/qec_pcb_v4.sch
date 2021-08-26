@@ -6946,7 +6946,7 @@ Source: www.kingbright.com</description>
 <label x="116.84" y="22.86" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="H3" class="0">
 <segment>
 <pinref part="DEC" gate="G$1" pin="H3"/>
 <wire x1="50.8" y1="45.72" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
